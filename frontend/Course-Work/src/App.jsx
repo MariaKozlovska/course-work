@@ -8,7 +8,6 @@ import CreateTask from './pages/Admin/CreateTask';
 import ManageUsers from './pages/Admin/ManageUsers';
 import UserDashboard from './pages/User/Dashboard'; // Припускаємо шлях для користувацького Dashboard
 
-// Приклад реалізації PrivateRoute
 const PrivateRoute = ({ children, allowedRoles }) => {
   // Заміни на реальну логіку авторизації
   const isAuthenticated = true; // Наприклад, перевірка токена з localStorage
@@ -63,7 +62,6 @@ const App = () => {
           }
         />
 
-        {/* Обробка невідомих маршрутів */}
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </Router>
