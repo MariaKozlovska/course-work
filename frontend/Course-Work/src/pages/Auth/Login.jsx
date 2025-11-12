@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Login = () => {
   return (
-    <div>Login</div>
-  )
-}
+    <div style={{ textAlign: "center", marginTop: "50px", fontSize: "24px" }}>
+      Login Page
+    </div>
+  );
+};
 
-export default Login
+export default Login;
