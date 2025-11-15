@@ -1,5 +1,7 @@
 const jwt = require("jsonwebtoken");
 const User = require("../models/User");
+const upload = require("../middlewares/uploadMiddleware");
+
 
 // Muddleware to protect routes
 const protect = async (req, res, next) => {
