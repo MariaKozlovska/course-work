@@ -84,7 +84,7 @@ const SignUp = () => {
             value={adminInviteToken}
             onChange={({ target }) => setAdminInviteToken(target.value)}
             label="Admin Invite Token (Optional)"
-            placeholder="Enter token to register as admin"
+            placeholder="6 Digit Code"
             type="text"
           />
 
